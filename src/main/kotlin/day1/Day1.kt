@@ -56,7 +56,7 @@ fun main(args: Array<String>) {
     println("Part2 result is $resultPart2")
 }
 
-val NUMBERS = listOf(
+private val NUMBERS = listOf(
     "one",
     "two",
     "three",
@@ -68,7 +68,7 @@ val NUMBERS = listOf(
     "nine",
 )
 
-fun String.toNumber() = when (this) {
+private fun String.toNumber() = when (this) {
     "one" -> 1
     "two" -> 2
     "three" -> 3
